@@ -33,24 +33,21 @@ an http reverse proxy designed to automatically and completely mirror a website 
     * *(PC & Mobile)*  https://g.zmirrordemo.com/wiki  
 
 * **Youtube**  
-    * *PC Only*  https://ytb-pc.zmirrordemo.com  
-    　　Youtube访问需要密码, 请解密此串得到密码`WmhlamlhbmdVbml2ZXJzaXR5` 如果您无法解密, 很抱歉Youtube镜像不对您开放  
-    * *Mobile Only* <del> https://ytb-mobile.zmirrordemo.com </del> 暂不开放  
-    　　Youtube Mobile 不支持iOS
+    * https://y.2000928.xyz   
 * **Twitter**
-    * *PC Only*  https://t-pc.zmirrordemo.com  
-    * *Mobile Only*  https://t-mobile.zmirrordemo.com
+    * *PC Only*  https://tw.2000928.xyz  
+    * *Mobile Only*  https://mobile.tw.2000928.xyz
 * **Instagram**
-    * *PC & Mobile*  https://in.zmirrordemo.com  
+    * *PC & Mobile*  https://ins.2000928.xyz  
 * **Facebook**
-    * *PC Only*  https://fb.zmirrordemo.com  
+    * *PC Only*  <del>https://fb.zmirrordemo.com</del>  
     　　绝大部分功能可用, 但是不完整  
 
 ## Screenshot
 ![zmirror-screenshot-youtube-mirror--1080P](https://github.com/aploium/zmirror/raw/wiki-pages/img/screenshot-youtube-1080p.jpg)  
 More screenshots are here: [wiki-screenshots](https://github.com/aploium/zmirror/wiki/Screenshots)  
 
-## 一键部署脚本
+## 一键部署脚本 (推荐手动部署2020/1/1)
 https://github.com/aploium/zmirror-onekey  
 一键部署脚本仍然不稳定, 如果怎么弄都失败, 请看[手动教程](https://github.com/aploium/zmirror/wiki/%E9%83%A8%E7%BD%B2%E6%94%AF%E6%8C%81HTTPS%E5%92%8CHTTP2.0%E7%9A%84%E9%95%9C%E5%83%8F)  
 
@@ -77,7 +74,7 @@ Together with the program, provided several (almost) out-of-box configs
   * 所有功能完整可用, 包括视频  
 
 ### Youtube镜像
-  * 支持PC站/手机  (两者需要以不同的域名部署, 详见配置)  
+  * 支持PC站/手机 <del>(两者需要以不同的域名部署youtube-mobile已失效, 详见配置)</del>
   * 视频播放、高清支持  
   * 登陆支持、字幕支持  
   * 小视频上传支持  
@@ -86,6 +83,7 @@ Together with the program, provided several (almost) out-of-box configs
   * 绝大部分功能可用, 但是不完整  
 
 ### 自带其他的镜像配置文件
+  * reddit镜像
   * archive.org镜像  
   * duckduckgo镜像  
   * Dropbox镜像  
