@@ -1,5 +1,5 @@
 # coding=utf-8
-# 这是为一个*空白*配置文件, 可以作为自己创建其他镜像的基础
+# 本配置根据zmirror模板配置更改而来
 # 其中包含了一些最常见的静态资源站, 可以减少开发难度
 # 在性能上, 由于zmirror的机制, 可以添加任意多的.com和.net域名而不影响性能. 添加其他后缀的域名也只有第一个会影响性能
 #
@@ -8,8 +8,8 @@
 # 如果服务器本身在墙内(或者在本地环境下测试, 请修改`Proxy Settings`中的设置
 #
 # boilerplate version: 1.0.0
-
-# Github: https://github.com/aploium/zmirror
+# Author: BOBMASRER 
+# Github: https://github.com/BOBMASRER/zmirror   https://github.com/aploium/zmirror
 
 # ############## Local Domain Settings ##############
 my_host_name = '127.0.0.1'  # !!!本机的域名!!!! 必须修改!
