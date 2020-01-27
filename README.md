@@ -32,7 +32,7 @@ an http reverse proxy designed to automatically and completely mirror a website 
 * **中文维基**  
     * *(PC & Mobile)*  https://g.zmirrordemo.com/wiki  
 
-* **Youtube**  
+* **Youtube(youtube-mobile已失效)** 
     * *PC Only*  https://ytb-pc.zmirrordemo.com  
     　　Youtube访问需要密码, 请解密此串得到密码`WmhlamlhbmdVbml2ZXJzaXR5` 如果您无法解密, 很抱歉Youtube镜像不对您开放  
     * *Mobile Only* <del> https://ytb-mobile.zmirrordemo.com </del> 暂不开放  
