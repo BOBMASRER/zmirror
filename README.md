@@ -10,7 +10,7 @@ an http reverse proxy designed to automatically and completely mirror a website 
 一个Python反向HTTP代理程序, 用于快速、简单地创建别的网站的镜像, 自带本地文件缓存、CDN支持  
 比如国内可以访问的Google镜像/中文维基镜像  
 
-自带了几个配置文件: 比如 Google镜像(含学术/其他/中文维基) twitter镜像 Youtube镜像 instagram镜像 Facebook镜像  
+自带了几个配置文件: 比如 Google镜像(含学术/其他/中文维基) twitter镜像 Youtube镜像 instagram镜像 Facebook镜像 Reddit镜像 
 完整列表请看[zmirror自带镜像配置文件](more_configs/readme.md)  
 
 **请在遵守当地相关法律法规的前提下使用本项目**  
@@ -33,21 +33,24 @@ an http reverse proxy designed to automatically and completely mirror a website 
     * *(PC & Mobile)*  https://g.zmirrordemo.com/wiki  
 
 * **Youtube**  
-    * https://y.2000928.xyz   
+    * *PC Only*  https://ytb-pc.zmirrordemo.com  
+    　　Youtube访问需要密码, 请解密此串得到密码`WmhlamlhbmdVbml2ZXJzaXR5` 如果您无法解密, 很抱歉Youtube镜像不对您开放  
+    * *Mobile Only* <del> https://ytb-mobile.zmirrordemo.com </del> 暂不开放  
+    　　Youtube Mobile 不支持iOS
 * **Twitter**
-    * *PC Only*  https://tw.2000928.xyz  
-    * *Mobile Only*  https://mobile.tw.2000928.xyz
+    * *PC Only*  https://t-pc.zmirrordemo.com  
+    * *Mobile Only*  https://t-mobile.zmirrordemo.com
 * **Instagram**
-    * *PC & Mobile*  https://ins.2000928.xyz  
+    * *PC & Mobile*  https://in.zmirrordemo.com  
 * **Facebook**
-    * *PC Only*  <del>https://fb.zmirrordemo.com</del>  
+    * *PC Only*  https://fb.zmirrordemo.com  
     　　绝大部分功能可用, 但是不完整  
 
 ## Screenshot
 ![zmirror-screenshot-youtube-mirror--1080P](https://github.com/aploium/zmirror/raw/wiki-pages/img/screenshot-youtube-1080p.jpg)  
 More screenshots are here: [wiki-screenshots](https://github.com/aploium/zmirror/wiki/Screenshots)  
 
-## 一键部署脚本 (推荐手动部署2020/1/1)
+## 一键部署脚本 (推荐手动)
 https://github.com/aploium/zmirror-onekey  
 一键部署脚本仍然不稳定, 如果怎么弄都失败, 请看[手动教程](https://github.com/aploium/zmirror/wiki/%E9%83%A8%E7%BD%B2%E6%94%AF%E6%8C%81HTTPS%E5%92%8CHTTP2.0%E7%9A%84%E9%95%9C%E5%83%8F)  
 
