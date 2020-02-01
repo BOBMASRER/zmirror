@@ -12,7 +12,7 @@
 # Github: https://github.com/aploium/zmirror
 
 # ############## Local Domain Settings ##############
-my_host_name = 'news.bobmaster.fun'  # !!!本机的域名!!!! 必须修改!
+my_host_name = '127.0.0.1'  # !!!本机的域名!!!! 必须修改!
 my_host_scheme = 'https://'  # 本机的协议, 可选为 "http://" 和 "https://"
 
 # ############## Target Domain Settings ##############
